@@ -6,7 +6,7 @@ on:
     - main
 
 env:
-  AWS_REGION: eu-west-1
+  AWS_REGION: eu-west-3
   ECR_REPOSITORY: miax10lambda
 
 defaults:
