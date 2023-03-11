@@ -9,6 +9,6 @@ def handler(event, context):
     print(df_san)
 
     # Llamar al algo
-    eq_w_1 = EqwAlgo(algo_tag='test_user_1_miax10_algo3', n_days=10)
+    eq_w_1 = EqwAlgo(algo_tag='acastillo_algo1', n_days=10)
     eq_w_1.run_day_comp()
 
